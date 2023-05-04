@@ -9,6 +9,8 @@ This notebook, borrowing from https://github.com/dpeerlab/SEACells/blob/main/not
 * Creates the hash tables with intermediary results
 * Creates the Pickle objects (downloadable) for further analysis offline.
 
+Everything has been built and tested in Google Collaboratory.
+
 In particular, there are the following sections of interest:
 ### Pickle Code
 Creates Pickle objects, which can be downloaded/uploaded for further analysis in other systems or offline.
