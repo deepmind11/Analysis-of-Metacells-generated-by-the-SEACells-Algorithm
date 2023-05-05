@@ -13,7 +13,7 @@ Everything has been built and tested in Google Collaboratory.
 
 In particular, there are the following sections of interest:
 ### Pickle Code
-Creates Pickle objects, which can be downloaded/uploaded for further analysis in other systems or offline.
+Creates Pickle objects, which can be downloaded/uploaded for further analysis in other systems or offline. These can be found and downoaded from the pickle folder
 ### Edge Projections
 Implements:
 * MB_graph(M matrix @ B matrix) -> complete graph representing the convex hull
