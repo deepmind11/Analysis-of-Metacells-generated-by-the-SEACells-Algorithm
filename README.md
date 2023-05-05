@@ -13,7 +13,11 @@ Everything has been built and tested in Google Collaboratory.
 
 In particular, there are the following sections of interest:
 ### Pickle Code
-Creates Pickle objects, which can be downloaded/uploaded for further analysis in other systems or offline. These can be found and downoaded from the pickle folder
+Creates Pickle objects, which can be downloaded/uploaded for further analysis in other systems or offline. These can be found and downoaded from:
+https://drive.google.com/drive/folders/1lNklxe4nPwTGY-ZDdclcAfk-81-7lSk8?usp=share_link
+
+The drive also contains, intermediary results for the case of 81metacells.
+
 ### Edge Projections
 Implements:
 * MB_graph(M matrix @ B matrix) -> complete graph representing the convex hull
