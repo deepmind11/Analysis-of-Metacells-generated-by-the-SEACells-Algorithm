@@ -12,11 +12,26 @@ This project is a part of the Computational Genomics course (COMS4761), Spring20
 
 ![Traditional Clustering vs Metacells](https://github.com/deepmind11/Analysis-of-Metacells-generated-by-the-SEACells-Algorithm/blob/main/images/Background%20and%20Impetus.png)
 
+Traditionally, to make single-cell data amenable for analysis, the first step has always been the clustering of the data. However, clustering algorithms have been shown to group different cell types together, i.e., there is non-homogeneity within clusters. Also, these algorithms fail to recognize rare cellular states, which play a vital role in the pathogenesis of most diseases.
+
+To overcome these problems, recently the concept of a Metacell was introduced. Metacells are defined as groups of cells that represent distinct cell states whereby within metacell variation is due to technical rather than biological sources. They are constructed in a manner that optimises for homogeneity within cell groups. The measurements within a Metacell can be thought of as coming from the same distribution.(See figure above)
+
+
 ### The SEACells Algorithm
 
 ![The SEACells Algorithm](https://github.com/deepmind11/Analysis-of-Metacells-generated-by-the-SEACells-Algorithm/blob/main/images/SEACells%20Algo.png)
 
+The archetypal analysis algorithm finds archetypes as points that sit on the convex hull of the data set. They can be thought of as the vertices of a convex polytope in the multi-dimensional phenotypic space.
+
 ## Project Goals
+
+At the outset, our goal was to interpret the different facets of the d-dimensional polytope. In an attempt to understand what defines (in terms of biological significance) an edge connecting two vertices or a plane defined by multiple vertices of the polytope.
+
+### Motivation:
+Currently the number of metacells is a parameter to the SEACells algorithm. We proposed that a better understanding of the architecture of the convex hull would help us better optimize the number of metacells. 
+
+## Data Used (Where is this available?)
+Dataset Used:  CD34+ Bone Marrow Multiome Data (6881 cells)
 
 
 ### Methods Used
