@@ -31,6 +31,7 @@ Currently the number of metacells is a parameter to the SEACells algorithm. We p
 
 ## Data Used 
 Dataset Used:  CD34+ Bone Marrow Multiome Data (6881 cells)
+
 `!wget https://dp-lab-data-public.s3.amazonaws.com/SEACells-multiome/cd34_multiome_rna.h5ad -O data/cd34_multiome_rna.h5ad` 
 
 
@@ -56,12 +57,12 @@ Dataset Used:  CD34+ Bone Marrow Multiome Data (6881 cells)
 1. This project can be run via the notebooks uploaded to the repository. (Intructions Below) [Recommended]
 2. The original SEACells repository can be found [here](https://github.com/dpeerlab/SEACells/)
 3. Pickle objects can be downoaded from [here](https://drive.google.com/drive/folders/1lNklxe4nPwTGY-ZDdclcAfk-81-7lSk8?usp=share_link)
-4. If you do not downlaod the pickle files, they need to be generated before you run the analysis notebooks (2 & 3).Comment out the code for loading the pickle file. Run the code and save the pickle object intead, this will save time 
+4. If you do not downlaod the pickle files, they need to be generated before you run the analysis notebooks (2 & 3).   Comment out the code for loading the pickle file. Run the code and save the pickle object intead, this will save time 
 for future computations.
 5. The presentations folder contains three presentations explaining the project and a **Project Report** that goes into the details of the project.
 
 
-## Featured Notebooks/Analysis/Deliverables
+## Featured Notebooks
 
 ## Notebook 1
 
